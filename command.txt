@@ -1,0 +1,7 @@
+# Submit job to spark
+
+spark-submit --class com.databricks.spark.avro.DebugConfluentSparkAvroUtils --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.1 target/scala-2.11/confluent-spark-avro-assembly-1.2.jar "localhost:9092" "http://192.168.30.15:8081" "snoqttv2"
+
+#run directly from sbt
+
+sbt "project kaspacore-streaming" "run localhost:9092 http://192.168.30.15:8081 snoqttv2"

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: spark-avro
+Implementation-Version: 3.2.0
+Spark-HasRPackage: false
+Specification-Vendor: com.databricks
+Specification-Title: spark-avro
+Implementation-Vendor-Id: com.databricks
+Specification-Version: 3.2.0
+Vcs-Release-Tag: v3.2.0
+Implementation-Vendor: com.databricks
+Vcs-Release-Hash: e28e45609b0178634a91ad8807f5f4be93590fef
+

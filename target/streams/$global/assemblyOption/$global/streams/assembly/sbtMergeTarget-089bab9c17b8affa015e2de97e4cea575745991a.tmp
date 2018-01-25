@@ -1,0 +1,2 @@
+com.fasterxml.jackson.dataformat.cbor.CBORFactory
+com.fasterxml.jackson.core.JsonFactory
